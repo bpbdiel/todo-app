@@ -32,6 +32,11 @@ function EditarModal({
           label="Actividad"
           value={titulo}
           onChange={(e) => setTitulo(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              guardar()
+            }
+          }}
           sx={{ marginTop: 1 }}
         />
       </DialogContent>
