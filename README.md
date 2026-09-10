@@ -67,7 +67,7 @@ Para ejecutar el proyecto es necesario tener instalado:
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/bpbdiel/todo-app.git todo-app-prueba
+git clone https://github.com/bpbdiel/todo-app.git todo-app
 
 ```
 
