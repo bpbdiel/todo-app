@@ -7,8 +7,7 @@ import {
 function TodoForm({
   actividad,
   setActividad,
-  agregarActividad,
-  indiceEditando
+  agregarActividad
 }) {
   return (
     <Box
@@ -28,7 +27,7 @@ function TodoForm({
         variant="contained"
         onClick={agregarActividad}
       >
-        {indiceEditando !== null ? "Guardar" : "Agregar"}
+        Agregar
       </Button>
     </Box>
   )
