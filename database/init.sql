@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS actividades (
+  id SERIAL PRIMARY KEY,
+  titulo VARCHAR(255) NOT NULL,
+  completada BOOLEAN DEFAULT FALSE
+);
