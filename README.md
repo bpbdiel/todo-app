@@ -112,7 +112,7 @@ Ejemplo:
 
 ```json
 {
-  "titulo": "Aprender Docker"
+  "titulo": "Comprar una camara"
 }
 ```
 
@@ -126,7 +126,7 @@ Ejemplo:
 
 ```json
 {
-  "titulo": "Aprender Docker",
+  "titulo": "Comprar una camara",
   "completada": true
 }
 ```
