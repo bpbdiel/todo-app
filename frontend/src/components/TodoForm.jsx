@@ -21,6 +21,11 @@ function TodoForm({
         label="Nueva actividad"
         value={actividad}
         onChange={(e) => setActividad(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            agregarActividad()
+          }
+        }}
       />
 
       <Button
